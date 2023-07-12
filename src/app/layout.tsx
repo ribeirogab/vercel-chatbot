@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <title>Vercel Chatbot</title>
       <body className={inter.className}>{children}</body>
     </html>
   );
